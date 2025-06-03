@@ -97,12 +97,13 @@ export default function Hero() {
       </div>
       
       {/* Scroll indicator */}
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center text-white animate-bounce">
-  <Link href="#services" className="flex flex-col items-center justify-center text-center">
+      <div className="absolute mb-10 bottom-10 inset-x-0 flex flex-col items-center text-white animate-bounce">
+  <Link href="#services" className="flex flex-col items-center text-center">
     <span className="text-sm opacity-70 mb-2">Scroll Down</span>
     <FiArrowDown size={20} />
   </Link>
 </div>
+
     </section>
   );
 }
