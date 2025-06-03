@@ -57,7 +57,7 @@ export default function Testimonial (){
                     <p className="text-sm text-muted-foreground">{testimonial.role}</p>
                   </div>
                 </div>
-                <p className="italic text-muted-foreground">"{testimonial.quote}"</p>
+                <p className="italic text-muted-foreground">&#34;{testimonial.quote}&#34;</p>
                 <div className="mt-4 flex">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <svg 
